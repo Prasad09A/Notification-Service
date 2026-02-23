@@ -1,4 +1,4 @@
-package com.loan.notification_service.Entity;
+package com.loan.notification_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

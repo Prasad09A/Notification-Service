@@ -1,4 +1,4 @@
-package com.loan.notification_service.Entity;
+package com.loan.notification_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -14,6 +14,9 @@ public class NotificationTemplate {
 
     @Column(name="event_code",nullable = false)
     private  String eventCode;
+
+    @Column(nullable = false)
+    private String channel;
 
     @Column(nullable = false)
     private String subject;
